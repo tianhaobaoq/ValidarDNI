@@ -3,6 +3,11 @@ import javax.swing.JOptionPane;
 public class ValidarDNI {
 	static final String LETRAS_DNI="TRWAGMYFPDXBNJZSQVHLCKE";
 	
+	/**
+	 * Método que extrae la letra del DNI
+	 * @param DNI Un DNI
+	 * @return La letra del dni
+	 */
 	static char extraerLetraDNI (String DNI) {
 		return DNI.charAt(DNI.length()-1);
 	}
